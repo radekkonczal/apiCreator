@@ -1,0 +1,17 @@
+$(document).ready(function(){
+	$("#loginButton").click(function(){
+		$("#singupButton").removeClass('active');
+		$("#loginButton").addClass('active');
+		$("#correctRegistration").hide();
+    	$("#registerForm").hide();
+    	$("#loginForm").show();
+    	$("#wrongLogin").hide();
+  	});
+  	$("#singupButton").click(function(){
+  		$("#loginButton").removeClass('active');
+  		$("#singupButton").addClass('active');
+  		$("#loginForm").hide();
+  		$("#wrongRegistration").hide();
+    	$("#registerForm").show();
+  	});
+});

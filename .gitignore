@@ -1,0 +1,4 @@
+vendor
+app/public/test.php
+bucket.php
+composer.lock

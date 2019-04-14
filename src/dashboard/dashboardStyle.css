@@ -1,0 +1,137 @@
+html,body {
+  	background-color: #C0C0C0;
+  	font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+}
+
+nav{
+	font-size: 20px;
+}
+
+button:focus{
+	outline: 0;
+}
+
+select:focus{
+	outline: 0;
+}
+
+h4{
+	font-size: 35px;
+	padding-bottom: 30px;
+}
+
+h5{
+	font-size: 20px;
+	font-weight: 300;
+	padding: 10px 0px 0px 0px;
+}
+
+#navbarText{
+	color: #ffffff;
+}
+
+#content{
+	display: none;
+}
+
+.element{
+	padding: 20px;
+	margin: 20px;
+	background-color: #ffffff;
+	border-radius: 15px;
+}
+
+.removeInPreparationRow, #removeAll, #createApi, #add, .viewInformation, .removeCreatedApi{
+	border: 1px solid grey;
+	font-size:20px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #DF3520;
+	width: 35px;
+	height: 35px;
+	transition-duration: 0.15s;
+  	transition-timing-function: linear;
+}
+
+.removeInPreparationRow:hover, #removeAll:hover, .removeCreatedApi:hover{
+	background-color: #E77624;
+}
+
+.fa-trash-alt{
+	color: white;
+}
+
+.fa-info{
+	color: white;
+}
+
+#removeAll{
+	width: 270px;
+	margin: 10px;
+}
+
+#createApi, #add{
+	background-color: #1ab188;
+	width: 220px;
+	text-align: center;
+}
+
+#createApi:hover, #add:hover{
+	background-color: #228F6C;
+}
+
+#createApi{
+	width: 270px;
+	margin: 10px;
+}
+
+.viewInformation{
+	background-color: #FFD700;
+}
+
+.viewInformation:hover{
+	background-color: #DAA520;
+}
+
+.alignCenter{
+	text-align: left;
+	width: 50px;
+	max-width: 50px;
+}
+
+.select{
+	font-size:16px;
+	color: #ffffff;
+	background-color: #A9A9A9;
+	height: 35px;
+	width: 220px;
+	border: 1px solid black;
+	font-weight: 700;
+}
+
+.option{
+	font-weight: 700;
+}
+
+#apiName input{
+	width: 270px;
+	margin: 10px;
+	height: 35px;
+	outline-color: black;
+	padding-left: 10px;
+}
+
+.page-item.active .page-link{
+	background-color: #C0C0C0;
+    border-color: #C0C0C0;
+}
+
+.page-link{
+	color: black;
+}
+
+.page-link:hover{
+	color: #808080;
+	border-color: #C0C0C0;
+}
