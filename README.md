@@ -26,7 +26,7 @@ Simple API creator, based on APIs of cryptocurrency exchanges.
 - PHP7
 - MySQL
 - HTML5
-- javaScript +jQuery
+- JavaScript +jQuery
 - CSS3
 - Composer
 - Bootstrap 4
