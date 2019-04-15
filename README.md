@@ -1,5 +1,5 @@
 # apiCreator
-Simple API creator, based on APIs of cryptocurrency exchanges.
+Simple JSON API creator, based on APIs of cryptocurrency exchanges.
 
 - Live version: https://apicreator.000webhostapp.com
 
